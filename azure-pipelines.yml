@@ -6,6 +6,8 @@
 trigger:
 - main
 
+name: '1.0.$(BuildID)'
+
 pool:
   vmImage: 'windows-latest'
 
